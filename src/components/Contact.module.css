@@ -1,0 +1,35 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+
+  border-bottom: 1px solid gray;
+  padding-bottom: 40px;
+  min-width: 60%;
+  max-width: 90%;
+}
+
+.contacts h1 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 2rem;
+}
+
+.contacts div {
+  list-style-type: none;
+  display: flex;
+  justify-self: center;
+  margin: 0;
+  padding: 0;
+}
+.contacts div a {
+  border: 1px solid gray;
+  margin: 4px;
+  padding: 2px 6px;
+  border-radius: 0.5cm;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
