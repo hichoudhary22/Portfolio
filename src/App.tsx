@@ -8,10 +8,10 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 
 function App() {
-  const homeRef = useRef();
-  const aboutRef = useRef();
-  const projectsRef = useRef();
-  const contactRef = useRef();
+  const homeRef = useRef<HTMLDivElement>(null);
+  const aboutRef = useRef(null);
+  const projectsRef = useRef(null);
+  const contactRef = useRef(null);
 
   return (
     <div>

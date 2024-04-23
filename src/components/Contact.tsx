@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 import styles from "./Contact.module.css";
 
-const Contact = forwardRef((props, ref) => {
+const Contact = forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div ref={ref} className={styles.contacts}>
       <h1>Contacts</h1>

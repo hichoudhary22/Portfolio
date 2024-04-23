@@ -1,13 +1,21 @@
 import { useState } from "react";
 import styles from "./Navbar.module.css";
 import menuIcon from "../assets/menu.png";
+import React from "react";
 
-function Navbar({ homeRef, aboutRef, projectsRef, contactRef }) {
+type props = {
+  homeRef: React.RefObject<HTMLDivElement>;
+  aboutRef: React.RefObject<HTMLDivElement>;
+  projectsRef: React.RefObject<HTMLDivElement>;
+  contactRef: React.RefObject<HTMLDivElement>;
+};
+
+function Navbar(props: props) {
   const [showMenu, setShowMenu] = useState(false);
-
-  function scrollTo(ref: object) {
+  const { homeRef, aboutRef, projectsRef, contactRef } = props;
+  function scrollTo(ref: React.RefObject<HTMLDivElement>) {
     setShowMenu(false);
-    ref.current.scrollIntoView({ behavior: "smooth" });
+    if (ref.current) ref.current.scrollIntoView({ behavior: "smooth" });
   }
 
   const NavButtons = () => {

@@ -3,7 +3,7 @@ import diaryAppPic from "../assets/diaryApp.png";
 import styles from "./Projects.module.css";
 import { forwardRef } from "react";
 
-const Projects = forwardRef((props, ref) => {
+const Projects = forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div ref={ref} className={styles.projects}>
       <h1>My Projects</h1>
