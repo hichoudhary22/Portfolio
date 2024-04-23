@@ -10,7 +10,7 @@ const About = forwardRef<HTMLDivElement>((_, ref) => {
           I am constantly building new projects, to improve my skillset. They
           say "Practice makes a man Perfect". So I am on a journey to make
           myself PERFECT. Would you like to join me...? So far I have acquired
-          these skills show here. But why stop here? When you have learnt the
+          these skills shown here. But why stop here? When you have learnt the
           art of teaching yourself "THEN SKY IS THE LIMIT". So I invite you to
           join me in my journey...✌🏻
         </p>

@@ -9,12 +9,14 @@ const Projects = forwardRef<HTMLDivElement>((_, ref) => {
       <h1>My Projects</h1>
       <div className={styles.container}>
         <div className={styles.card}>
-          <h3>Math Practice</h3>
-          <p>used vanila JS and HTML to create this project</p>
+          <a href="https://hichoudhary22.github.io/math_practice/">
+            Math Practice
+          </a>
+          <p>used vanilla JS and HTML to create this project</p>
           <img src={mathAppPic} alt="" />
         </div>
         <div className={styles.card}>
-          <h3>Diary App</h3>
+          <a href="https://diary-app-4ipf.onrender.com/">Diary App</a>
           <p>used MERN Stack to create this app</p>
           <img src={diaryAppPic} alt="" />
         </div>
