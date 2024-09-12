@@ -20,6 +20,11 @@ const Projects = forwardRef<HTMLDivElement>((_, ref) => {
           <p>used MERN Stack to create this app</p>
           <img src={diaryAppPic} alt="" />
         </div>
+<div className={styles.card}>
+  <a href="https://sample-mflix-sigma.vercel.app/">sample_mflix</a>
+  <p>used Next Js to create this app</p>
+  <img src={sampleMflixPic} alt="" />
+</div>
       </div>
     </div>
   );
