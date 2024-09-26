@@ -16,7 +16,7 @@ const About = forwardRef<HTMLDivElement>((_, ref) => {
         </p>
         <div>
           <h3>my skillset</h3>
-          <h4>HTML</h4>
+          <h4>HTML 5</h4>
           <h4>CSS</h4>
           <h4>Javascript</h4>
           <h4>MongoDB</h4>

@@ -49,6 +49,10 @@
   font-size: 0.8rem;
 }
 
+.card p span {
+  font-weight: 600;
+}
+
 .card img {
   width: 300px;
   height: 550px;

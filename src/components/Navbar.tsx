@@ -23,7 +23,7 @@ function Navbar(props: props) {
       <>
         <button onClick={() => scrollTo(homeRef)}>Home</button>
         <button onClick={() => scrollTo(aboutRef)}>About</button>
-        <button onClick={() => scrollTo(projectsRef)}>Projects</button>
+        <button onClick={() => scrollTo(projectsRef)}>My Projects</button>
         <button onClick={() => scrollTo(contactRef)}>Contact</button>
       </>
     );

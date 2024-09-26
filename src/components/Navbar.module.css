@@ -33,6 +33,7 @@
   color: white;
 }
 
+/* the close menu button at top */
 .menuMobile p {
   font-size: 3rem;
   margin: 0 30px;
@@ -58,6 +59,7 @@
 }
 
 .menuDesk button {
+  color: black;
   border: none;
   background-color: white;
   font-size: 0.9rem;

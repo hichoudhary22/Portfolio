@@ -12,13 +12,16 @@ const Home = forwardRef<
   return (
     <div ref={ref} className={styles.home}>
       <h1>Hello there!!!</h1>
+      <p>Welcome to my portfolio,</p>
       <p>
-        welcome to my portfolio, I make lots of different websites trying to
-        solve various problem that I think solving will help others. Recently I
-        made a Diary App in which you can add your entries which was password
-        protected.
+        My name is <span>Himanshu Choudhary,</span>
       </p>
-      <button onClick={scrollToProjects}>Projects</button>
+      <p>
+        I make lots of different websites trying to solve various problem that I
+        think solving will help others. Recently I made a Diary App in which you
+        can add your entries which was password protected.
+      </p>
+      <button onClick={scrollToProjects}>My Projects</button>
     </div>
   );
 });
