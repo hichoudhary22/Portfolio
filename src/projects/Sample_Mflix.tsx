@@ -1,4 +1,3 @@
-import mathAppAdditionPic from "../assets/mathAppAddition.png";
 import sample_mflixLanding from "../assets/sample_mflixLanding.png";
 import sample_mflix_homepage from "../assets/sample_mflix_homepage.png";
 import sample_mflix_Mongo from "../assets/sample_mflix_Mongo.png";
