@@ -1,36 +1,16 @@
-import mathAppPic from "../assets/mathApp.png";
-import diaryAppPic from "../assets/diaryApp.png";
 import styles from "./Projects.module.css";
 import { forwardRef } from "react";
+import MathPractice from "../projects/MathPractice";
+import DiaryApp from "../projects/DiaryApp";
+import Sample_Mflix from "../projects/Sample_Mflix";
 
 const Projects = forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div ref={ref} className={styles.projects}>
       <h1>My Projects</h1>
-      <div className={styles.container}>
-        <div className={styles.card}>
-          <a href="https://hichoudhary22.github.io/math_practice/">
-            Math Practice
-          </a>
-          <p>
-            used <span>vanilla JS</span> and <span>HTML</span> to create this
-            project
-          </p>
-          <img src={mathAppPic} alt="" />
-        </div>
-        <div className={styles.card}>
-          <a href="https://diary-app-4ipf.onrender.com/">Diary App</a>
-          <p>
-            used <span>MERN</span> Stack to create this app
-          </p>
-          <img src={diaryAppPic} alt="" />
-        </div>
-<div className={styles.card}>
-  <a href="https://sample-mflix-sigma.vercel.app/">sample_mflix</a>
-  <p>used Next Js to create this app</p>
-  <img src={sampleMflixPic} alt="" />
-</div>
-      </div>
+      <MathPractice />
+      <DiaryApp />
+      <Sample_Mflix />
     </div>
   );
 });
